@@ -1,6 +1,5 @@
+import todoState from './todo';
+
 export default {
-  todo: {
-    todos: [{ done: false, text: 'test' }],
-    script: '',
-  },
+  ...todoState,
 };
